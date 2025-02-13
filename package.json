@@ -1,0 +1,19 @@
+{
+  "name": "simon-game-pedro",
+  "version": "1.0.0",
+  "description": "a simply simon game with JS",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroBolson/Simon-Game.git"
+  },
+  "author": "Pedro Bolson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroBolson/Simon-Game/issues"
+  },
+  "homepage": "https://github.com/PedroBolson/Simon-Game#readme"
+}

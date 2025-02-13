@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <aside class="score-panel">
+    <h2>Placar</h2>
+    <ul id="score-list"></ul>
+    <button id="quit-btn" class="quit-button">Encerrar Jogo</button>
+  </aside>
+
+  <main>
+    <h1 id="level-title">Pressione uma tecla para começar!</h1>
+
+    <section class="container">
+      <div class="row">
+        <button id="green" class="btn green"></button>
+        <button id="red" class="btn red"></button>
+      </div>
+      <div class="row">
+        <button id="yellow" class="btn yellow"></button>
+        <button id="blue" class="btn blue"></button>
+      </div>
+    </section>
+  </main>
+
+  <aside class="difficulty-panel">
+    <h2>Dificuldade</h2>
+    <button id="difficulty-btn" class="difficulty-button">Modo Normal</button>
+  </aside>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./game.js"></script>
+</body>
+
+</html>
